@@ -14,11 +14,6 @@ public class DebugInfo : System.Attribute
     private string lastReviewed;
     public string message;
     
-    public string Topic
-    {
-        get; set;
-    }
-    
     public DebugInfo(int bug, string developer, string reviewed)
     {
         this.bugNo = bug;
