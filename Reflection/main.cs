@@ -107,6 +107,7 @@ public class Program
         if (field != null)
         {
             Console.WriteLine($"Current value: {field.GetValue(rect)} of field: {field.Name}");
+            Console.WriteLine($"Update the value of {varName} to:");
             string newVal = Console.ReadLine();
             double newDouble;
             if(double.TryParse(newVal, out newDouble))
